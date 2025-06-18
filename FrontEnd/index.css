@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;  /* Dark background */
+    color: #fff;                /* White text for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container style */
+.container {
+    background-color: #1E1E1E; /* Slightly lighter background for the form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);  /* Box shadow for depth */
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Button style */
+button {
+    background-color: #FF6347;  /* Tomato red for a pop of color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #E5533C;  /* Darker red on hover */
+}
+
+/* Result box */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00FF7F;  /* Lime green for the result text */
+}
