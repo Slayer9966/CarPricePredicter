@@ -1,0 +1,4 @@
+fastapi
+pytorch
+uvicorn
+numpy
